@@ -1,0 +1,58 @@
+{
+  "name": "cc",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "bootstrap": "^4.5.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-popper": "^2.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "reactstrap": "^8.7.1",
+    "truffle": "^5.1.56",
+    "web-vitals": "^0.2.4",
+    "web3": "^1.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "mocha": "*"
+  },
+  "description": "DeFi App - Crypto Campaign, a decentralised and hence transparent Crowdfunding solution. Backers and can see and approve where their money goes, and it is directly transferred to the beneficiary with no third-party interference.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "Ankit Biswas",
+  "license": "ISC"
+}
